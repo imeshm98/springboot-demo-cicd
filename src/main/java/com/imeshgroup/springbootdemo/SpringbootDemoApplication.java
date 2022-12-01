@@ -11,13 +11,19 @@ public class SpringbootDemoApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "You all are in welcome page --Imesh-- Channged file content";
+		return "You all are in welcome page";
+	}
+
+	@GetMapping("/login")
+	public String login(){
+		return "your in login page";
 	}
 
 	@GetMapping("/")
 	public String home(){
 		return "your in Home page";
 	}
+
 
 	//	git init
 	//	git add README.md
